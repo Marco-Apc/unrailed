@@ -1,0 +1,263 @@
+main {
+    display: block;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.container-ialogo {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ialogorow {
+    margin-bottom: 0px !important;
+    min-height: 0px;
+}
+
+.ialogocol {
+    position: relative;
+    min-height: 0px;
+}
+
+img {
+    border-style: none;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 2.28rem;
+    line-height: 110%;
+    margin: 1.52rem 0 .912rem 0;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 1.0933333333rem 0 .656rem 0;
+  }
+
+a {
+    text-decoration: none;
+    color: #039be5;
+}
+
+video.responsive-video {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.avail a {
+    color: black;
+}
+
+.orange4 {
+    background-color: #98bd47;
+}
+
+.orange3 {
+    background-color: #d99d01;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+    vertical-align: middle;
+    z-index: 1;
+    transition: .5s ease-out;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5px;
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-large {
+    height: 54px;
+    line-height: 54px;
+    font-size: 15px;
+    padding: 0 28px;
+}
+
+.grey-text.text-darken-3 {
+    color: #424242;
+}
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax-container-1 {
+    height: 850px;
+}
+
+.parallax-container-big {
+    height: 440px;
+}
+
+.parallax-container .parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.parallax-container .parallax img {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.ialogo {
+    transition: background 1s;
+    width: 94px;
+    height: 75px;
+    position: absolute;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-color: rgba(70, 70, 70, 0.7);
+    top: -3px;
+    z-index: 1000;
+    display: block;
+    right: 94px;
+}
+
+.awards {
+    padding: 10px 0;
+    text-align: center;
+    margin: auto;
+}
+
+.awards img {
+    width: 255px;
+    filter: invert(85%);
+}
+
+.center,
+.center-align {
+    text-align: center;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row .col {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 .75rem;
+}
+
+.col .row {
+    margin-left: -.75rem;
+    margin-right: -.75rem;
+}
+
+.logo-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo2 {
+    max-height: 60%;
+    max-width: 90%;
+}
+
+.float-image-left {
+    width: 75%;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 0 !important;
+    float: left;
+    display: block;
+}
+
+.float-image-right {
+    width: 75%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 0;
+    float: right;
+    display: block;
+}
+
+.row .col.offset-s1 {
+    margin-left: 8.3333333333%;
+}
+
+.row .col.offset-m1 {
+    margin-left: 8.3333333333%;
+}
+
+.row .col.m10 {
+    width: 83.3333333333%;
+    left: auto;
+    right: auto;
+}
+
+.row .col.m6 {
+    width: 50%;
+    margin-left: auto;
+}
+
+.row .col.s10 {
+    width: 83.3333333333%;
+}
+
+.row .col.m12 {
+    width: 100%;
+    margin-left: auto;
+}
+
+.row .col.l12 {
+    width: 100%;
+    margin-left: auto;
+}

@@ -1,0 +1,67 @@
+footer {
+    display: block;
+}
+
+.green {
+    background-color: #4eb897;
+}
+
+.brown {
+    background-color: #766047;
+}
+
+.awards-light img {
+    width: 250px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+}
+
+.footer-awards {
+    background-color: rgba(51, 51, 51, 0.08);
+}
+
+.footer-copyright {
+    text-align: center;
+    display: block;
+    background-color: rgba(51, 51, 51, 0.15) !important;
+    padding: 10px 0px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-copyright a {
+    color: white;
+}
+
+.btn-footer {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+}
+
+.row-footer {
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row-footer .col-footer {
+    width: 83.3333333333%;
+    margin-left: 8.3333333333%;
+    box-sizing: border-box;
+    padding: 0 .75rem;
+}
+
+.row .col.l6 {
+    width: 50%;
+    margin-left: auto;
+
+}
+
+.row .col.l3 {
+    width: 25%;
+    margin-left: auto;
+}
